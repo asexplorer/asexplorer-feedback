@@ -1,0 +1,10 @@
+# Only the two forms below; a blank issue would arrive without version or system.
+blank_issues_enabled: false
+contact_links:
+  - name: No GitHub account? Email us
+    # GitHub accepts only web addresses here, so the link goes to the README's section with the address.
+    url: https://github.com/ik55/asexplorer-feedback#no-github-account
+    about: Write to feedback@asexplorer.com instead. E-mail stays private.
+  - name: Downloads and release notes
+    url: https://asexplorer.com
+    about: The latest version may already have the fix.

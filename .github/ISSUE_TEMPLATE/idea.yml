@@ -1,0 +1,34 @@
+name: Suggest an idea
+description: Something you miss, or something Finder or Explorer does better.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This page is public.** Please look through the [open ideas](https://github.com/ik55/asexplorer-feedback/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement+sort%3Areactions-%2B1-desc)
+        first: if yours is there, give it a 👍. We sort ideas by votes.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like asExplorer to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: When would you use it?
+      description: What you were doing when you missed it. This helps us get it right.
+  - type: textarea
+    id: elsewhere
+    attributes:
+      label: Does another app do it well?
+      description: Finder, Windows Explorer, another file manager… and how.
+  - type: dropdown
+    id: system
+    attributes:
+      label: Which systems do you use asExplorer on?
+      multiple: true
+      options:
+        - macOS
+        - Windows
+        - Linux

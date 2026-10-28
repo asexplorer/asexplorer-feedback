@@ -1,0 +1,56 @@
+name: Report a problem
+description: Something doesn't work, looks wrong or crashed.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time. **This page is public**: please leave out private file names, folder
+        paths and documents. If yours is already among the [open issues](https://github.com/ik55/asexplorer-feedback/issues), a 👍 there helps more.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we see it too?
+      description: The steps that lead to it, if you know them.
+      placeholder: |
+        1. Open a folder with…
+        2. Right-click…
+        3. …
+  - type: input
+    id: version
+    attributes:
+      label: asExplorer version
+      description: In the About box: the app menu on macOS, F1 on Windows and Linux.
+      placeholder: "0.2.4"
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: System
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: system-version
+    attributes:
+      label: System version
+      placeholder: "macOS 15.1, Windows 11 24H2, Ubuntu 24.04…"
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else?
+      description: |
+        If an error window appeared, its **Copy Details** text helps most (check it for private paths first).
+        You can drop screenshots here too.
