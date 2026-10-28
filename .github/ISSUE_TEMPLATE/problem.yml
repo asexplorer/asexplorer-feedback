@@ -27,7 +27,7 @@ body:
     id: version
     attributes:
       label: asExplorer version
-      description: In the About box: the app menu on macOS, F1 on Windows and Linux.
+      description: "In the About box: the app menu on macOS, F1 on Windows and Linux."
       placeholder: "0.2.4"
     validations:
       required: true
