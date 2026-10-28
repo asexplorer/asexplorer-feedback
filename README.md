@@ -6,15 +6,15 @@ conventions of each platform. Its code is not here; this repository only collect
 
 ## Send feedback
 
-- **[Report a problem](https://github.com/ik55/asexplorer-feedback/issues/new?template=1-problem.yml)**: something
+- **[Report a problem](https://github.com/asexplorer/asexplorer-feedback/issues/new?template=1-problem.yml)**: something
   doesn't work, looks wrong or crashed.
-- **[Suggest an idea](https://github.com/ik55/asexplorer-feedback/issues/new?template=2-idea.yml)**: something you
+- **[Suggest an idea](https://github.com/asexplorer/asexplorer-feedback/issues/new?template=2-idea.yml)**: something you
   miss, or something Finder or Explorer does better.
 
 In the app: **Help › Send Feedback…** on macOS, or the command bar's **…** menu › **Send feedback…** on Windows and
 Linux. Both open this repository's forms.
 
-Before you write, please look through the [open issues](https://github.com/ik55/asexplorer-feedback/issues): if
+Before you write, please look through the [open issues](https://github.com/asexplorer/asexplorer-feedback/issues): if
 yours is already there, give it a 👍. We sort ideas by votes.
 
 ## No GitHub account?

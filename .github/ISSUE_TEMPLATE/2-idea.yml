@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **This page is public.** Please look through the [open ideas](https://github.com/ik55/asexplorer-feedback/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement+sort%3Areactions-%2B1-desc)
+        **This page is public.** Please look through the [open ideas](https://github.com/asexplorer/asexplorer-feedback/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement+sort%3Areactions-%2B1-desc)
         first: if yours is there, give it a 👍. We sort ideas by votes.
   - type: textarea
     id: idea

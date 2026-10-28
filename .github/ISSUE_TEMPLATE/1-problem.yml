@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Thank you for taking the time. **This page is public**: please leave out private file names, folder
-        paths and documents. If yours is already among the [open issues](https://github.com/ik55/asexplorer-feedback/issues), a 👍 there helps more.
+        paths and documents. If yours is already among the [open issues](https://github.com/asexplorer/asexplorer-feedback/issues), a 👍 there helps more.
   - type: textarea
     id: what-happened
     attributes:
